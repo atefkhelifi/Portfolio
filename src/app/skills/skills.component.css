@@ -1,0 +1,93 @@
+.row {
+  display: flex;
+}
+
+.column-one {
+  flex: 55%;
+  padding: 10vh 10px 0 clamp(50px, 8%, 200px);
+  /* trbl */
+}
+.column-two {
+  flex: 45%;
+  padding: 0 clamp(50px, 8%, 200px) 0 10px;
+}
+
+.column-one *,
+.column-two * {
+  position: relative;
+  word-wrap: break-word; /* IE 5.5-7 */
+  white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap;
+}
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-list li img {
+  width: 40px; /* Ajuste la taille de l'icône selon tes besoins */
+  margin-right: 10px;
+}
+
+.skills-list li span {
+  font-size: 18px;
+}
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.image-item img {
+  width: 200px; /* Adjust the size as needed */
+  height: auto;
+  border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  border-radius: 5px;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(175, 49, 49); /* Ajoute une légère ombre */
+  transition: all 0.4s ease 0s !important;
+}
+
+.image-item img:hover {
+  transition: all 0.4s ease 0s !important;
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+.purple {
+  color: rgba(230, 137, 137, 0.637) !important;
+}
+.project-heading {
+  color: #fff !important;
+  font-size: 2.1em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  display: flex;
+  justify-content: center;
+}
+.project-heading-nc {
+  color: #fff !important;
+  font-size: 2.1em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
