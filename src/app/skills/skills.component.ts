@@ -9,6 +9,7 @@ import { AnimationOptions } from 'ngx-lottie';
 })
 export class SkillsComponent {
   styles: Partial<CSSStyleDeclaration> = {
+    width: '70%',
     maxWidth: '500px',
 
     margin: '0 auto',

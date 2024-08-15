@@ -84,7 +84,6 @@
   }
 }
 
-
 /*  */
 
 @font-face {
@@ -100,13 +99,12 @@
 body {
   margin: 0;
   min-height: 100%;
-  background-color: transparent;
+  background-color: #101010;
   font-family: MyFont;
-    font-size: 1rem;
-  
+  font-size: 1rem;
+
   line-height: 20px;
 }
-
 
 .node {
   cursor: pointer;
@@ -117,12 +115,10 @@ body {
 }
 
 .node circle {
-  fill: #DDDDDD !important;
-  stroke: #DDDDDD;
+  fill: #dddddd !important;
+  stroke: #dddddd;
   stroke-width: 1.5px;
   /* r : 7 !important; */
-
-
 }
 
 .node circle:hover {
@@ -130,29 +126,26 @@ body {
   stroke: green; */
   fill: #ededed !important;
   stroke: #dddddd84;
-  cx :"50%";
-  cy : "50%" ;
+  cx: "50%";
+  cy: "50%";
   r: 4 !important;
-  r : "125%" !important;
+  r: "125%" !important;
 
   animation-duration: 2s;
-  animation-iteration-count:  infinite;
+  animation-iteration-count: infinite;
   animation-name: buttonTransition;
   animation-timing-function: ease-in-out;
-  animation-direction:alternate;
+  animation-direction: alternate;
 }
 
 @keyframes buttonTransition {
-
-  
   from {
-      transform: scale(0.7);
+    transform: scale(0.7);
   }
   to {
-      transform: scale(1);
+    transform: scale(1);
   }
 }
-
 
 .node text {
   font-size: 8px;
@@ -165,21 +158,18 @@ body {
   stroke: #dddddd84; */
 
   animation-duration: 1s;
-  animation-iteration-count:  once;
+  animation-iteration-count: once;
   animation-name: textTransition;
 }
 
 @keyframes textTransition {
-
-  
   from {
-      transform: scale(0.97);
+    transform: scale(0.97);
   }
   to {
-      transform: scale(1);
+    transform: scale(1);
   }
 }
-
 
 .link {
   fill: none;
@@ -192,7 +182,6 @@ body {
   fill: none;
   stroke: red;
   stroke-width: 3px;
-  
 }
 
 .ghostCircle.show {
@@ -204,8 +193,5 @@ body {
   display: none;
 }
 text {
-  fill: #DDDDDD;
+  fill: #dddddd;
 }
-
-
-

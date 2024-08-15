@@ -63,10 +63,10 @@ ul {
   justify-content: center;
   /* box-sizing: border-box; */
   /* margin: 10px 40px; */
-  padding: 0 clamp(3.125rem, 8%, 200px) 0 clamp(3.125rem, 8%, 200px);
+  padding: 10px clamp(3.125rem, 8%, 200px) 0 clamp(3.125rem, 8%, 200px);
 }
 li {
-  padding: 0.625vw 2.125vw;
+  padding: 0.625vw 1.125vw;
 }
 ul li {
   /* list-style: none; */

@@ -1,7 +1,3 @@
-.row {
-  display: flex;
-}
-
 .column-one {
   flex: 55%;
   padding: 10vh 10px 0 clamp(0px, 8%, 200px);
