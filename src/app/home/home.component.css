@@ -348,7 +348,7 @@ a:active {
 .typing-text {
   font-family: "Waiting for the Sunrise", cursive;
 
-  margin: 10px 50px;
+  /* margin: 10px 50px;*/
   letter-spacing: 6px;
   font-weight: bold;
 }
@@ -423,3 +423,17 @@ body {
   animation: fly 1.5s infinite;
   display: inline-block;
 }
+.text-over-image {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+/* @media (max-width: 768px) {
+  .column-one .text-over-image {
+    color: black;
+    text-shadow: none;
+  }
+
+  .column-one .p-name {
+    color: black;
+  }
+} */
