@@ -30,7 +30,7 @@
   background-color: #101010;
   animation-name: grained;
   animation-iteration-count: infinite;
-  animation-duration: 0.5s;
+  /*animation-duration: 0.5s;*/
   animation-timing-function: steps(20);
 }
 .wrapper {
