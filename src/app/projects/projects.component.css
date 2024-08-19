@@ -81,7 +81,7 @@
   margin: 10px;
   height: 222px;
 }
-.img:hover {
+.card:hover .img {
   border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
   box-shadow: 0 0 10px rgb(175, 49, 49); /* Ajoute une légère ombre */
 }
@@ -120,11 +120,14 @@
 }
 
 .card:hover .card-arrow {
-  background-color: rgba(255, 255, 255, 0.2);
+  color: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  box-shadow: 0 0 10px rgb(175, 49, 49);
 }
 
 .card:hover .card-arrow span {
-  color: #fff;
+  /* color: #fff;*/
+
+  color: 1.7px solid rgba(230, 137, 137, 0.637) !important;
 }
 
 .card:hover h3,

@@ -28,7 +28,7 @@ const routes: Routes = [
   },
   {
     component: CertificatesComponent,
-    path: 'certificates',
+    path: 'experience',
   },
   {
     component: ProjectsComponent,
