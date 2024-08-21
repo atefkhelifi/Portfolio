@@ -268,3 +268,101 @@ body {
   padding-top: 10px !important;
   color: rgba(230, 137, 137, 0.637) !important;
 }
+/*card*/
+.card {
+  width: 355px;
+  height: auto; /* Ajuster la hauteur selon votre préférence */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  box-shadow: 0 0 10px rgb(175, 49, 49); /* Ajoute une légère ombre */
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.card:hover {
+  transition: all 0.4s ease 0s !important;
+  transform: scale(1.05); /* Zoom in by 10% on hover */
+  /*background-color: rgb(
+    230 137 137 / 64%
+  ) !important;*/ /* Changer la couleur au survol */
+  color: #fff; /* Changer la couleur du texte au survol */
+}
+
+.card:hover .card-arrow {
+  color: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  box-shadow: 0 0 10px rgb(175, 49, 49);
+}
+
+.card:hover .card-arrow span {
+  /* color: #fff;*/
+
+  color: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+}
+
+.card:hover h3,
+.card:hover p {
+  color: #fff;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-arrow {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-arrow span {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.card-list {
+  margin: 20px;
+}
+.img {
+  width: 340px;
+  border-radius: 3%;
+  margin: 10px;
+  height: 222px;
+}
+.card:hover .img {
+  border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  box-shadow: 0 0 10px rgb(175, 49, 49); /* Ajoute une légère ombre */
+}

@@ -437,3 +437,36 @@ body {
     color: black;
   }
 } */
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+a:link {
+  text-decoration: none;
+}
+.vn-red a {
+  background-color: #e74c3c;
+  display: inline-block;
+  position: relative;
+  margin: 30px 5px;
+  padding: 20px 20px 20px 80px;
+  color: #fff;
+  transition: all 0.4s ease;
+  border-radius: 3px;
+}
+.vn-red a:before {
+  content: "\f019";
+  font-family: fontAwesome;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 28px;
+  border-radius: 0 20px 0 0;
+  color: #000;
+  background-color: #fff;
+  opacity: 0.3;
+  padding: 20px;
+  top: 0;
+  left: 0;
+}
+.vn-red a:hover {
+  background: #7f8c8d;
+}
