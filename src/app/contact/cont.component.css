@@ -14,7 +14,7 @@
   /* flex: 55%; */
   /* padding-top: 15vh; */
   /* trbl */
-  padding: 15vh clamp(50px, 8%, 200px) 0 clamp(50px, 8%, 200px);
+  padding: 10vh clamp(50px, 8%, 200px) 0 clamp(50px, 8%, 200px);
   height: 100%;
   /* width: 100%; */
   align-items: center;
@@ -147,4 +147,63 @@ a:hover .fa-linkedin-in {
 }
 a:hover .fa-github {
   color: rgb(153, 153, 153);
+}
+/*new contact page*/
+body {
+  margin-top: 20px;
+  background: #eee;
+}
+.gradient-brand-color {
+  background-image: -webkit-linear-gradient(
+    0deg,
+    0 0 10px rgb(175, 49, 49) 0%,
+    rgba(230, 137, 137, 0.637) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    0 0 10px rgb(175, 49, 49) 0%,
+    rgba(230, 137, 137, 0.637) 100%
+  );
+  color: #fff;
+}
+.contact-info__wrapper {
+  overflow: hidden;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+@media (min-width: 1024px) {
+  .contact-info__wrapper {
+    border-radius: 0 0.625rem 0.625rem 0;
+    padding: 5rem !important;
+  }
+}
+.contact-info__list span.position-absolute {
+  left: 0;
+}
+.z-index-101 {
+  z-index: 101;
+}
+.list-style--none {
+  list-style: none;
+}
+.contact__wrapper {
+  background-color: transparent;
+  border-radius: 0 0 0.625rem 0.625rem;
+  border: 1.7px solid rgba(230, 137, 137, 0.637) !important;
+  box-shadow: 0 0 10px rgb(175, 49, 49); /* Ajoute une légère ombre */
+}
+
+@media (min-width: 1024px) {
+  .contact__wrapper {
+    border-radius: 0.625rem 0 0.625rem 0.625rem;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-form__wrapper {
+    padding: 5rem !important;
+  }
+}
+.shadow-lg,
+.shadow-lg--on-hover:hover {
+  box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
 }
