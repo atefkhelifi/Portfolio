@@ -107,35 +107,35 @@
               novalidate="novalidate"
             >
               <div class="row">
-                <div class="col-sm-6 mb-3">
+                <div class="col-sm-12 mb-3">
                   <div class="form-group">
-                    <label class="required-field" for="firstName"
-                      >First Name</label
-                    >
+                    <label class="required-field" for="Name">Name</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="firstName"
-                      name="firstName"
-                      placeholder="Wendy"
+                      id="Name"
+                      name="Name"
+                      placeholder="Atef khelifi"
+                      [(ngModel)]="name"
                     />
                   </div>
                 </div>
 
-                <div class="col-sm-6 mb-3">
+                <div class="col-sm-12 mb-3">
                   <div class="form-group">
-                    <label for="lastName">Last Name</label>
+                    <label for="Object">Object</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="lastName"
-                      name="lastName"
-                      placeholder="Appleseed"
+                      id="Object"
+                      name="Object"
+                      placeholder="Object"
+                      [(ngModel)]="object"
                     />
                   </div>
                 </div>
 
-                <div class="col-sm-6 mb-3">
+                <!-- <div class="col-sm-12 mb-3">
                   <div class="form-group">
                     <label class="required-field" for="email">Email</label>
                     <input
@@ -144,22 +144,10 @@
                       id="email"
                       name="email"
                       placeholder="wendy.apple@seed.com"
+                      [(ngModel)]="email"
                     />
                   </div>
-                </div>
-
-                <div class="col-sm-6 mb-3">
-                  <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input
-                      type="tel"
-                      class="form-control"
-                      id="phone"
-                      name="phone"
-                      placeholder="(021)-454-545"
-                    />
-                  </div>
-                </div>
+                </div> -->
 
                 <div class="col-sm-12 mb-3">
                   <div class="form-group">
@@ -172,16 +160,16 @@
                       name="message"
                       rows="4"
                       placeholder="Hi there, I would like to....."
+                      [(ngModel)]="message"
                     ></textarea>
                   </div>
                 </div>
 
                 <div class="col-sm-12 mb-3">
                   <button
-                    type="submit"
-                    name="submit"
                     class="btn"
                     style="background-color: rgba(230, 137, 137, 0.637)"
+                    (click)="sendEmail($event)"
                   >
                     Submit
                   </button>

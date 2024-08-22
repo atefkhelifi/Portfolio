@@ -12,6 +12,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { LottieModule } from 'ngx-lottie';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { FormsModule } from '@angular/forms';
 
 // Note we need a separate function as it's required
 // by the AOT compiler.
@@ -32,6 +33,8 @@ export function playerFactory() {
   ],
   imports: [
     BrowserModule,
+
+    FormsModule,
     AppRoutingModule,
     LottieModule.forRoot({ player: playerFactory }),
   ],
