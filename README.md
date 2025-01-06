@@ -30,6 +30,32 @@ Framework for building the portfolio.
 
 Custom styles for layout and design.
 
-#### ⚡ This is my [portfolio website]
+# Installation
 
-#### 🔨 Still in progress.
+Clone the repository:
+
+```bash
+git clone https://github.com/atefkhelifi/Portfolio
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+# Usage
+
+To run the project locally:
+
+```bash
+ng serve
+```
+
+Navigate to http://localhost:4200/ in your web browser to view the portfolio.
