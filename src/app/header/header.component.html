@@ -1,29 +1,22 @@
-<div
-  class="header wrapper"
-  *ngIf="isHeaderVisible"
-  style="background-color: #101010"
->
-  <div class="background"></div>
-  <nav>
-    <ul>
-      <li>
-        <a
-          routerLink="/"
-          routerLinkActive="active"
-          [class.active]="isActive('/')"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >Home</a
-        >
-      </li>
+<nav class="navbar navbar-inverse">
+  <ul class="nav-links">
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [class.active]="isActive('/')"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
 
-      <!-- <li><a routerLink="about" routerLinkActive="active">about</a></li> -->
-      <li><a routerLink="about" routerLinkActive="active">About</a></li>
-      <li><a routerLink="projects" routerLinkActive="active">Projects</a></li>
-      <li>
-        <a routerLink="experience" routerLinkActive="active">Experience</a>
-      </li>
-      <li><a routerLink="contact" routerLinkActive="active">Contact</a></li>
-    </ul>
-  </nav>
-  <hr class="hr-animate" />
-</div>
+    <!-- <li><a routerLink="about" routerLinkActive="active">about</a></li> -->
+    <li><a routerLink="about" routerLinkActive="active">About</a></li>
+    <li><a routerLink="projects" routerLinkActive="active">Projects</a></li>
+    <li>
+      <a routerLink="experience" routerLinkActive="active">Experience</a>
+    </li>
+    <li><a routerLink="contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+</nav>
+<!-- <hr class="hr-animate" /> -->
