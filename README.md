@@ -4,19 +4,31 @@ This project is a personal portfolio website developed using Angular. It showcas
 
 # Features
 
-### Responsive Design: The website is mobile-friendly and adapts to various screen sizes.
+#### Responsive Design:
 
-### Dynamic Content: Sections such as "What I Do?", "Projects", and "Contact Me" are dynamically managed.
+The website is mobile-friendly and adapts to various screen sizes.
 
-### Contact Form: Visitors can send messages directly through the contact form.
+#### Dynamic Content:
 
-### Skill Highlights: The "What I Do?" section highlights my key skills.
+Sections such as "What I Do?", "Projects", and "Contact Me" are dynamically managed.
+
+#### Contact Form:
+
+Visitors can send messages directly through the contact form.
+
+#### Skill Highlights:
+
+The "What I Do?" section highlights my key skills.
 
 # Technologies Used
 
-### Angular: Framework for building the portfolio.
+#### Angular:
 
-### CSS3: Custom styles for layout and design.
+Framework for building the portfolio.
+
+#### CSS3:
+
+Custom styles for layout and design.
 
 #### ⚡ This is my [portfolio website]
 
